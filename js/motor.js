@@ -85,20 +85,20 @@ function alunizajeNave()
 {
 	if (v < 8)
 	{
-		alert("FELICIDADES!!\nGran alunizaje\n\nCONGRATULATIONS!!\nGood landing!!"); reStart();
+		alert("FELICIDADES!!\nGran alunizaje"); reStart();
 		
 	}
 	else
 	{
 		//explosion
-		alert("BOOM");
+		alert("LA NAVE HA EXPLOTADO!!\nLamentamos mucho la muerte de los valientes astronautas."); reStart();
 	}
 	
 }
 
 function reStart()
 {
-	var r = confirm("Otra partida?\n\nAnother Game?");
+	var r = confirm("Otra partida?");
 	if (r == true)
 	{
     	window.location="jugar.html";
@@ -108,6 +108,7 @@ function reStart()
 		stop();
 	} 
 }
+
 
 function motorOn(){
 	a=-g;
