@@ -40,22 +40,22 @@ window.onload = function(){
 
 //Cambiar de imágenes
 
-var src1="../img/nave.gif";
-var src2="../img/nave2.gif";
-imgelem=null;
-
-window.onload = function(){
-  imgelem=document.getElementById('MyImage');
-  imgelem.onmousedown=function(){
-    cambiar();
-  }
+imagen1=new Image
+imagen1.src="../img/nave.gif"
+imagen2=new Image
+imagen2.src="../img/nave2.gif"
+var i=1;
+function cambiar() {
+if (i == 1)
+{
+document.images['MyImage'].src=imagen2.src
+i=2;
 }
-
-function cambiar(){
-  if (imgelem.src==src1)
-    imgelem.src=src2;
-  else
-    imgelem.src=src1;
+else
+{
+document.images['MyImage'].src=imagen1.src;
+i=1;
+}
 }
 
 //Otras funciones
@@ -79,49 +79,4 @@ function moverNave(){
 	} else { 
 		stop();  alunizajeNave();
 	}
-}
-
-function alunizajeNave()
-{
-	if (v < 8)
-	{
-		alert("FELICIDADES!!\nGran alunizaje"); reStart();
-		
-	}
-	else
-	{
-		//explosion
-		alert("LA NAVE HA EXPLOTADO!!\nLamentamos mucho la muerte de los valientes astronautas."); reStart();
-	}
-	
-}
-
-function reStart()
-{
-	var r = confirm("Otra partida?");
-	if (r == true)
-	{
-    	window.location="jugar.html";
-	}
-	else
-	{
-		stop();
-	} 
-}
-
-
-function motorOn(){
-	a=-g;
-	if (timerFuel==null)
-	timerFuel=setInterval(function(){ actualizarAltura(); }, 100);
-}
-function motorOff(){
-	a=g;
-	clearInterval(timerFuel);
-	timerFuel=null;
-}
-function actualizarAltura(){
-	//Aquí hay que cambiar el valor del marcador de Fuel...
-	fuel-=1;
-	document.getElementById("fuel").innerHTML=fuel;	
 }
