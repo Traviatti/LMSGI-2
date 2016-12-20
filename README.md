@@ -14,6 +14,10 @@ Por último he usado una página para optimizar el css y he creado una segunda c
 
 Antes de subirlo aquí he validado las páginas para evitar posibles fallos.
 
+Se ha creado la rama "Master", en la que está la web tal cual y la rama "minify" dónde se puede encontrar el código comprimido.
+
+No debería haber problema alguno en verlo de manera adecuada a nivel de nube, si fuera así, descargándolo funciona correctamente. Lo he probado en un servidor mio privado y ha funcionado con normalidad.
+
 ###B: Justificación del diseño
 
 No he modificado mucho el estilo empleado por el profesor como ejemplo. No he querido cargar mucho las páginas para que se carguen lo antes posible, así que he optado por hacer algo sencillo.
