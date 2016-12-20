@@ -1,8 +1,9 @@
 var y = 10; // altura inicial y0=10%, debe leerse al iniciar si queremos que tenga alturas diferentes dependiendo del dispositivo
 var v = 0;
 var g = 1.622;
-var a = g;
-var dt = 0.016683;
+var a = g.toFixed(2);
+var dt1 = 0.016683;
+var dt = dt1.toFixed(2);
 var timer=null;
 var timerFuel=null;
 var fuel=100;
@@ -59,9 +60,9 @@ function stop(){
 
 function moverNave(){
 	v +=a*dt;
-	document.getElementById("velocidad").innerHTML=v;
+	document.getElementById("velocidad").innerHTML=v.toFixed(2);
 	y +=v*dt;
-	document.getElementById("altura").innerHTML=y;
+	document.getElementById("altura").innerHTML=y.toFixed(2);
 	
 	//mover hasta que top sea un 70% de la pantalla
 	if (y<80){ 
@@ -95,7 +96,7 @@ function reStart()
 	var r = confirm("Otra partida?");
 	if (r == true)
 	{
-    	window.location="jugar.html";
+    	window.location="index.html";
 	}
 	else
 	{
