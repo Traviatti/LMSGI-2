@@ -1,10 +1,10 @@
 body,html{height:100%;padding:0px;margin:0px;}
-body{background: url(../img/fondo.jpg);color: #D2A33C; font-size: 20px;}
+body{background: url(../img/fondo.JPG);color: #D2A33C; font-size: 20px;}
 .a{}
 .b{}
 .c{;display:block !important}
 .a,.b,.c{display:inline-block;width:33.33%;height:100%;float:left;}
-.d{background: url(../img/luna.png);height:10%;width:100%;position:fixed;bottom:0px;}
+.d{background: url(../img/luna.png);height:10%;width:100%;position:fixed;bottom:0px;text-align: center;}
 #nave{text-align:center;position:fixed;top:10%;width:100%;height:20%}
 #nave img{height:50%;}
 #cpanel{}
@@ -22,11 +22,13 @@ ul li
 	list-style: none;
 	list-style-image: none;
 }
+
 li a{color:#D2A33C;text-align:center;}
 
 a{color:#D2A33C;text-align:justify; text-decoration:none}
 
 li a:hover:not(.active){background-color:#555}
+
 h1
 {
 	text-align: center;
