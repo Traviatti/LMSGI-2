@@ -40,26 +40,10 @@ window.onload = function(){
   		motorOff();
  	  }
 }
-function left() //moves image to the left
-
-{
-document.getElementById("as").onclick = '0px';
-document.getElementById("as").style.left = '0px';
-}
-/*
-	document.onclick = function () {
- 	  if (a==g){
-  		motorOn();
- 	  } else {
-  		motorOff();
- 	  }
-	}*/
 	//encender/apagar al apretar/soltar una tecla
 	document.onkeydown = motorOn;
 	document.onkeyup = motorOff;
 	
-	//Empezar a mover nave
-	//start();
 }
 
 //Definición de funciones
