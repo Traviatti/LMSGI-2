@@ -1,6 +1,8 @@
 <!DOCTYPE html>
+
 <html>
 	<head>
+    
 		<meta charset="UTF-8" />
 		<title>Proyecto Landing</title>
 		<meta name="Tarea Proyecto Lunar" content="Aplicación Web orientada al aprendizaje">
@@ -12,7 +14,7 @@
 
 <body>
 	<div id="nave">
-		<img id="MyImage" src="img/nave.gif" alt="img nave" onMousedown="cambiar()">
+		<img id="imagen" src="img/naveof.png" alt="cohete">
 	</div>
 	<div class="a">
 		<div id="showm">show menu</div>
@@ -21,7 +23,8 @@
 				<li>Fuel: <span id="fuel">100</span> l</li>
 				<li>Altura: <span id="altura">70</span> m</li>
 			</ul>
-		</div><div class="b"></div><div class="c">
+		</div><div class="b">
+		</div><div class="c">
 		<div id="hidem">hide menu</div>
 			<ul id="menu">
 				<li><a href="index.html">Inicio</a></li>
@@ -30,6 +33,11 @@
 				<li><a href="acerca.html">Acerca de...</a></li>
 			</ul>
 		</div>
-	<div class="d"></div>
+	<div class="d">
+		<div id="empezar">
+			<button id="play" onclick="start()">Empezar</button>
+			<button id="pause" onclick="pausa()">Pausa</button>
+		</div>
+	</div>
 </body>
 </html>
