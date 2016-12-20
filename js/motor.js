@@ -17,7 +17,6 @@ window.onload = function(){
 		document.getElementsByClassName("c")[0].style.display = "block";
 		document.getElementById("showm").innerHTML="";
 		stop();
-		
 	}
 		
 	//ocultar menú móvil. Volvemos a mostrar 'SHOW MENU' y recuperamos 'cpanel'.
@@ -28,12 +27,9 @@ window.onload = function(){
 		document.getElementById("showm").innerHTML="show menu";
 	}
 
-
-
 	//encender/apagar el motor al hacer click en la pantalla
-	document.getElementById("imagen").onclick = function(){
-
-  
+	document.getElementById("imagen").onclick = function()
+	{
      if (a==g){
   		motorOn();
  	  } else {
