@@ -1,0 +1,3 @@
+//al cargar por completo la página...
+window.onload = function(){documentgetelementsbyclassnamec0styledisplay:block}//ocultar menú móvil. Volvemos a mostrar 'SHOW MENU' y recuperamos cpanel.
+document.getElementById(hidem).onclick = function (){documentgetelementbyidcpanelstyledisplay:block;documentgetelementsbyclassnamec0styledisplay:none;documentgetelementbyidshowminnerhtml:"show menu"}
