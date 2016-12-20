@@ -7,13 +7,18 @@ Una vez leido el contenido de la lección y evalucación de actividad, comenzamo
 
 ###A: Crear documentos:
 
-Lo primero que he creado han sido las carpetas *css* e *img* y *js*, tras lo que he comenzado con el archivo principal html. He usado el código facilitado por el profesor, tal y como lo ha sugerido.
+Lo primero que he creado han sido las carpetas *css*, *img* y *js*, tras lo que he comenzado con el archivo principal html. Tras buscar la imagen de un cohete, he usado una página para modificar imágenes muy semejante a Photoshop y he recortado el cohete para hacerlo transparente. Tras tener el html básico, he comenzado con el CSS.
+
+He usado y retocado las páginas y CSS que nos ha sumisnistrado el profesor dándole un toque más personal a cada una de ellas.
+Por último he usado una página para optimizar el css y he creado una segunda carpeta en la que he puesto el CSS optimizado en el head del html.
 
 Antes de subirlo aquí he validado las páginas para evitar posibles fallos.
 
 ###B: Justificación del diseño
 
-He modificado un poco el diseño del profesor al poner imágenes buscadas por mi, pero en general he usado esa base.
+No he modificado mucho el estilo empleado por el profesor como ejemplo. No he querido cargar mucho las páginas para que se carguen lo antes posible, así que he optado por hacer algo sencillo.
+
+Espero haber cumplido los requisitos mínimos solicitados.
 
 ###C: Crear un **repositorio** *GitHub*
 
@@ -22,6 +27,8 @@ Para esta parte de la tarea, he usado la cuenta que ya tenía registrada en la p
 ##*Links* utilizados:
 
 [Página Barra de navegación y Menú vertical](http://www.w3schools.com/css/css_navbar.asp)
+
+[Página Sprites](http://www.w3schools.com/css/css_image_sprites.asp)
 
 [Página Validación HTML](https://validator.w3.org/)
 
